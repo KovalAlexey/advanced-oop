@@ -1,7 +1,6 @@
 public class Square extends Figure {
     private double squareSide;
 
-
     public Square(Color color, double sideLength) {
         super(color);
         this.squareSide = sideLength;

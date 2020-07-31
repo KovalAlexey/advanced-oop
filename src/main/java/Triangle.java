@@ -11,7 +11,7 @@ public class Triangle extends Figure {
         return (Math.pow(triangleSide, 2) * Math.sqrt(3))/4;
     }
 
-        public int getHeight() {
+    public int getHeight() {
         return (int) (triangleSide * Math.sqrt(3))/2;
     }
 
