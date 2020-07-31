@@ -19,7 +19,7 @@ public class Main {
         }
     }
 
-    public static double numberGenerator() {
+    private static double numberGenerator() {
         return Math.random() * 10;
     }
 
