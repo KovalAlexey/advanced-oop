@@ -1,7 +1,7 @@
 public abstract class Figure {
-    public String color;
+    public Color color;
 
-    public Figure(String color) {
+    public Figure(Color color) {
         this.color = color;
     }
 

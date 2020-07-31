@@ -2,7 +2,7 @@ public class Square extends Figure {
     private double squareSide;
 
 
-    public Square(String color, double sideLength) {
+    public Square(Color color, double sideLength) {
         super(color);
         this.squareSide = sideLength;
     }
@@ -18,6 +18,7 @@ public class Square extends Figure {
 
     @Override
     public void drawFigure() {
-        System.out.println("This is square, color: " + this.color + ", square: " + toSquare() + " sq.units, with diagonal: " + getDiagonal() + " units");
+        System.out.println("This is square, color: " + this.color + ", square: "
+                + toSquare() + " sq.units, with diagonal: " + getDiagonal() + " units");
     }
 }
